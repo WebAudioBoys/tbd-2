@@ -40,6 +40,10 @@ app.get('/setup', function(req, res){
   res.sendFile(__dirname + '/public/setup.html');
 });
 
+app.get('/thesis-supplement', function(req, res){
+  res.sendFile(__dirname + '/public/thesis-supplement.html');
+});
+
 // dynamic url for rooms
 app.get('/:dynamicroute', function(req,res) {
   res.sendFile(__dirname + '/public/app.html');
