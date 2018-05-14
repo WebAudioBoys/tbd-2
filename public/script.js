@@ -49,7 +49,10 @@ var $chord = [[],[]];
 var started;
 
 // Draw Loop
+
 var tempo=120;
+
+
 
 var stopcounter=true;
 
